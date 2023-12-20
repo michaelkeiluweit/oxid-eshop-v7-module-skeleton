@@ -1,0 +1,17 @@
+{
+  "name": "michaelkeiluweit/test-module",
+  "description": "Test Module",
+  "type": "oxideshop-module",
+  "keywords": ["oxid", "modules", "eShop"],
+  "autoload": {
+    "psr-4": {
+      "MichaelKeiluweit\\TestModule\\": "src/"
+    }
+  },
+  "config": {
+    "allow-plugins": {
+      "oxid-esales/oxideshop-composer-plugin": true,
+      "oxid-esales/oxideshop-unified-namespace-generator": true
+    }
+  }
+}
